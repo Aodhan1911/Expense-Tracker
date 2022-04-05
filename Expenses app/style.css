@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200;1,400&display=swap");
+body {
+  background-image: url(imgs/cool-background.png);
+  background-size: 100%;
+  margin: auto;
+}
+
+#allText {
+  background-color: rgba(0, 0, 0, 0.171);
+}
+
+#mainForm {
+  text-align: center;
+  font-family: "Barlow";
+  font-weight: 400;
+  font-size: 32px;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+h1 {
+  /* font-family: "Carter One"; */
+  padding-top: 2rem;
+  font-family: "Barlow";
+  text-align: center;
+  font-size: 54px;
+  letter-spacing: 3.5px;
+  color: #ffffff;
+  text-shadow: 2.25px 2.25px rgb(24, 24, 24);
+}
+h2 {
+  font-family: "Barlow";
+  text-align: center;
+  font-size: 33px;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 2.25px 2.25px rgb(24, 24, 24);
+}
+
+#dateBox,
+#amountBox {
+  padding: 8px;
+  font-size: 16px;
+}
+
+#nameBox {
+  padding: 8px;
+  padding-right: 18rem;
+  font-size: 16px;
+}
+
+#addBtn {
+  padding: 12px;
+  font-family: "Barlow";
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgba(250, 8, 230, 0.164);
+  box-shadow: 1px 1px;
+}
+
+table {
+  padding-top: 3rem;
+  width: 90%;
+  margin: auto;
+  font-family: "Barlow";
+  font-size: 26px;
+}
+
+th {
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.301);
+}
+
+td {
+  /* border: 0.5px solid; */
+  background-color: rgba(0, 0, 0, 0.205);
+}
+
+.xColumn {
+  padding-right: 25px;
+}
+
+.delBtn {
+  background-color: rgba(255, 255, 255, 0.486);
+  margin-left: 10px;
+}

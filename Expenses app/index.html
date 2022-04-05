@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="allText">
+      
+      <h1>Expense Tracker</h1>
+      <h2>Add a new item:</h2>
+      <div id="mainForm">
+        
+        <form action="">
+        <label for="name">Where: </label>
+        <input
+          type="text"
+          id="nameBox"
+          placeholder="Where was the expense?"
+          />
+          <br />
+        <br />
+        <label for="dateBox">Date: </label>
+        <input type="date" id="dateBox" name="expense-date" />
+        <label for="amount">Amount: </label>
+        <input type="number" id="amountBox" placeholder="£££" />
+        <br />
+        <br />
+        <button type="submit" id="addBtn">ADD EXPENSE</button>
+      </form>
+    </section>
+
+    <section id="headerSection">
+      <table id="theTable">
+        <tr>
+          <th>Where</th>
+          <th>When</th>
+          <th>Amount</th>
+          <th class='xColumn'></th>
+        </tr>
+        <tr id='dataSection'>
+          <!-- <td class="whereData"></td>
+          <td class=whenData></td>
+          <td class="amountData"></td> -->
+          <!-- <td><button class="clearData" type="reset">X</button></td> -->
+        </tr>
+      </table>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
